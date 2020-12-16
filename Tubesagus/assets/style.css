@@ -1,0 +1,75 @@
+body{
+  font-family: 'Acme', sans-serif;
+}
+
+/*slide bar */
+.carousel-item{
+    height: 100%;
+  }
+  .carousel-item .display-4{
+    margin-top: -350px;
+  } 
+
+  .carousel-item hr{
+    border-color: black;
+    width: 70px;
+    border-width: 3px;
+  }
+  .carousel-item .btn{
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 40px;
+  }
+/*card menu*/
+  .card:hover{
+    box-shadow: -10px 10px 40px -10px whitesmoke;
+  }
+
+  /*captiom in carousel*/
+  @media screen and (max-width: 956px) {
+    .caption .display-4{
+      font-size: 1em;
+      margin-top: 300px;
+    }  
+    .caption p {
+      font-size: 1em;
+    }
+  }
+
+  /* Rating */
+.rate {
+    text-align: center;
+}
+
+#rating p {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    background-color: #eb0b0b;
+    margin: 0 30px;
+}
+/*navbar*/
+.navbar-brand {
+  font-size: 30px;
+}
+
+nav li:hover {
+  padding: 5px;
+  color: #ffffff;
+  background-color: black;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+  transition: .5s;
+  position: sticky;
+}
+
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
